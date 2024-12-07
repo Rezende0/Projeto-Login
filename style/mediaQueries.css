@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+Typlical Device Breakpoint 2024{
+    Extra small devices (phones, 600px and down);
+    Small devices (portrait tablets and large phones, 600px and up);
+    Medium devices (landscape tablets, 768px and up);
+    Large devices (laptops/desktops, 992px and up);
+    Extra large devices (large laptops and desktops, 1200px and up)
+}
+*/
+
+@media screen and (min-width: 768px) {
+
+    section {
+        width: 90vw;
+        height: 70vh;
+    }
+
+    section > div#imagem {
+        float: right;
+        width: 30%;
+        height: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+
+    section > form {
+        float: left;
+        width: 70%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+
+    body {
+        background-image: linear-gradient(to bottom, #0000C9, #4A3F25);
+    }
+    section > div#imagem {
+        width: 40%;
+    }
+
+    section > form {
+        width: 60%;
+    }
+}
