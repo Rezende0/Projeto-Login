@@ -55,7 +55,7 @@ div.campo {
     width: 95%;
     height: 45px ;
     margin: 0px auto 12px;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: #22228A;
 }
 
@@ -63,6 +63,16 @@ div > label {
     font-size: 2em;
     padding: 5px;
     margin-left: 10px;
+    width: 40px;
+}
+
+div.campo > input {
+    height: 95%;
+    width: 84.7%;
+    transform: translateY(-7px);
+    background-color: rgba(138, 131, 34, 0.5);
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
