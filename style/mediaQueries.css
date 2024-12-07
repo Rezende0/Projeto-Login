@@ -30,6 +30,15 @@ Typlical Device Breakpoint 2024{
         width: 70%;
         height: 100%;
     }
+
+    form p {
+        margin-bottom: 40px;
+    }
+
+    form > input[type=submit] {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
     
 }
 

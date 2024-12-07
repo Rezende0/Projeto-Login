@@ -52,24 +52,28 @@ form p {
 }
 
 div.campo {
+    display: flex;
+    align-items: center;
     width: 95%;
-    height: 45px ;
+    height: 45px;
     margin: 0px auto 12px;
     border-radius: 8px;
     background-color: #22228A;
+    border: 2px solid #22228A;
 }
 
-div > label {
+div.campo > label {
     font-size: 2em;
     padding: 5px;
     margin-left: 10px;
     width: 40px;
+    flex-shrink: 0;
 }
 
 div.campo > input {
     height: 95%;
-    width: 84.7%;
-    transform: translateY(-7px);
+    width: 100%;
+    transform: translateY(-0.6px);
     background-color: rgba(138, 131, 34, 0.5);
     border-radius: 8px;
     padding: 4px;
